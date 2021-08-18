@@ -1,0 +1,71 @@
+.container {
+	height: 100%;
+	margin-left:px;
+}
+
+.navigasi {
+	background-color: skyblue;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+}
+
+.navigasi a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.navigasi a:hover {
+	background-color: salmon;
+	color :white;
+	display: block;
+}
+
+.navigasi ul li {
+	display: inline-block;
+	margin-right: 20px;
+	transition: all 900ms;
+
+}
+
+.header {
+	margin-right: -6px;
+	border-top: 5px solid salmon;
+	margin-top: 50px;
+	position: relative;
+	background-image: url(img/header.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 800px;
+}
+
+.judul-header{
+	color: #f4eee8;
+	font-size: 80px;
+	text-align: center;
+	font-family: Brush Script MT;
+	
+}
+
+.clik {
+	background-color: #f4eee8;
+	border: none;
+	color: salmon;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	cursor: pointer;
+	position: relative;
+}
+
+.daftar {
+	font-size: 40px;
+	position: relative;
+	text-indent: center;
+}
+
+
